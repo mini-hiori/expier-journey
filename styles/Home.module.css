@@ -1,0 +1,32 @@
+
+
+.main {
+  padding: 0;
+}
+
+.main::before {
+  background-image: url("https://expier-journey.s3.ap-northeast-1.amazonaws.com/images/expier_journey_mini_small.png"), url("https://expier-journey.s3.ap-northeast-1.amazonaws.com/images/jacket_front_bg.jpeg");
+  position: fixed;
+  background-size: cover, cover;
+  width: 100%;
+  height: 100vh;
+  content: "";
+  z-index: -1;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50% 15%, center;
+  background-position: center, center;
+  animation: sine_move 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  padding: 0;
+}
+
+@keyframes sine_move {
+  0% {
+      background-position: 50% 15%, 0 0;
+  }
+
+  100% {
+      background-position: 50% calc(15% + 1.5rem), 0 0;
+  }
+}

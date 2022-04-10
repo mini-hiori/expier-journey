@@ -1,0 +1,88 @@
+.root {
+    justify-content: center;
+    background: linear-gradient(315deg,#ff73c4,#ffe54d);
+}
+
+
+div.information {
+    padding: 0;
+}
+
+div.jacket {
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(23,44,44,0.5));
+}
+
+img.jacket {
+    width: 100%;
+}
+
+ul.texts {
+    color: #fff;
+    padding: 0;
+}
+
+.info_spaces {
+    margin-bottom: 1rem;
+}
+
+.route_mini {
+    font-size: clamp(2.5rem,2.5vw,2.7rem);
+    font-weight: 700;
+
+}
+
+.events {
+    font-size: clamp(1.5rem,2.5vw,1.8rem);
+    font-weight: 700;
+}
+
+.price {
+    font-size: clamp(2rem,2.5vw,2.2rem);
+    font-weight: 700;
+}
+
+span.mini {
+    font-size: clamp(1.2rem,2.5vw,1.5rem);
+    font-weight: 700;
+}
+
+a.stores {
+    font-size: clamp(1rem,2.5vw,1.3rem);
+    background: #fff;
+    color: #172c2c;
+    border-radius: 1rem;
+    transition: .3s;
+    &:hover {
+        opacity: 0.6;
+    }
+    display: block;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(23,44,44,0.5));
+    font-weight: 500;
+}
+
+div.stores {
+    padding: 1rem;
+}
+
+a.stores_wide {
+    font-size: clamp(1rem,2.5vw,1.3rem);
+    background: #fff;
+    color: #172c2c;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: .3s;
+    &:hover {
+        opacity: 0.6;
+    }
+    display: block;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(23,44,44,0.5));
+}
+
+div.stores_wide {
+    padding: 1rem;
+}
+
+img.logo {
+    width: 100%;
+    min-width: 100%;
+}

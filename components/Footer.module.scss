@@ -1,0 +1,33 @@
+.root {
+    background: #fff;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.icon {
+    font-size: clamp(1rem,2.5vw,1.2rem);
+    background: linear-gradient(315deg,#ff73c4,#ffe54d);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    color: #fff;
+    transition: .3s;
+    &:hover {
+        opacity: 0.6;
+    }
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(23,44,44,0.5));
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: #172c2c;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.share_button {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
