@@ -4,7 +4,7 @@ import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const title = "イクスピア・ジャーニー - Route 32(みーに)";
-  const description = "ひらがな系ボカロPみーにが布団の上をのたうち回りながらついに1st Albumを書き上げた！がんばりました";
+  const description = "ぼっち系ボカロPみーにがついに1st Albumを書き上げた！がんばりました";
   const url = "https://expier-journey.mini-hiori.info/";
   const thumbnail = "https://expier-journey.s3.ap-northeast-1.amazonaws.com/images/jacket_web.jpeg";
   return (
