@@ -21,7 +21,7 @@ const TrackList: NextPage = () => {
             </div>
         </div>
         <div className="container px-md-5 py-3">
-            <div className={"row"}>
+            <div className={"row justify-content-center"}>
                 <div className={"col-md-6 mx-auto " + styles.title}>
                     <h1 className={styles.title}>Track List</h1>
                 </div>
@@ -57,6 +57,13 @@ const TrackList: NextPage = () => {
                     </li>
                 </div>
             </ol>
+        </div>
+        <div className="container px-md-5 pb-3">
+            <div className={"row justify-content-center"}>
+                <div className={"col-md-3 pb-3"}>
+                    <a className={"text-center p-3 " + styles.stores} href="expier_journey_lyrics.pdf" download="https://raw.githubusercontent.com/mini-hiori/expier-journey/master/public/expier_journey_lyrics.pdf">All Lyrics</a>
+                </div>
+            </div>
         </div>
     </div>
   )

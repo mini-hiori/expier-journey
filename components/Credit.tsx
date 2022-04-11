@@ -4,17 +4,17 @@ import styles from './Credit.module.scss'
 const Credit: NextPage = () => {
   return (
     <div className={"container-fluid " + styles.root}>
-      <div className="row">
+      <div className="row justify-content-center">
         <div className={"col-md"}>
           <h1 className={styles.title}>Credit</h1>
         </div>
       </div>
-      <div className="row">
+      <div className="row justify-content-center">
         <div className={"col-md " + styles.credit}>
           企画・作詞・作曲・マスタリング・<br className={"d-sm-none"}></br>イラスト・デザイン・プロデュース・Web
         </div>
       </div>
-      <div className="row">
+      <div className="row justify-content-center">
         <div className={"col-md " + styles.credit}>
           <div className={styles.mini_hiori}>みーに</div>
           </div>

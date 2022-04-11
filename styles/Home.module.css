@@ -5,7 +5,7 @@
 }
 
 .main::before {
-  background-image: url("https://expier-journey.s3.ap-northeast-1.amazonaws.com/images/expier_journey_mini_small.png"), url("https://expier-journey.s3.ap-northeast-1.amazonaws.com/images/jacket_front_bg.jpeg");
+  background-image: url("https://raw.githubusercontent.com/mini-hiori/expier-journey/master/images/expier_journey_mini_small.png"), url("https://raw.githubusercontent.com/mini-hiori/expier-journey/master/images/jacket_front_bg.jpeg");
   position: fixed;
   background-size: cover, cover;
   width: 100%;

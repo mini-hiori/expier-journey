@@ -87,3 +87,17 @@ div.jacket {
     width: 50%;
     padding: 6em;
 }
+
+a.stores {
+    font-size: clamp(1rem,2.5vw,1.3rem);
+    background: #fff;
+    color: #172c2c;
+    border-radius: 1rem;
+    transition: .3s;
+    &:hover {
+        opacity: 0.6;
+    }
+    display: block;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(23,44,44,0.5));
+    font-weight: 500;
+}
