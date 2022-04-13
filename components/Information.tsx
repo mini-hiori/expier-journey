@@ -52,19 +52,19 @@ const Information: NextPage = () => {
                     <div className={"row justify-content-center"}>
                         <div className={"col-sm p-3"}>
                         <a href="" className={"text-center p-3 " + styles.stores}>
-                            Spotify<br></br>(4/29予定)
+                            Spotify<br></br>(4/25予定)
                         </a>
                         </div>
                         <div className={"col-sm p-3"}>
                         <a href="" className={"text-center p-3 " + styles.stores}>
-                            Apple Music<br></br>(4/29予定)
+                            Apple Music<br></br>(4/25予定)
                         </a>
                         </div>
                     </div>
                     <div className={"row justify-content-center"}>
                         <div className={"col-sm p-3"}>
                         <a href="" className={"text-center p-3 " + styles.stores}>
-                            その他サブスク<br></br>(4/29予定)
+                            その他サブスク<br></br>(4/25予定)
                         </a>
                         </div>
                     </div>
