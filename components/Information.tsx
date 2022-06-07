@@ -39,35 +39,35 @@ const Information: NextPage = () => {
                 <div className={"container"}>
                     <div className={"row justify-content-center"}>
                         <div className={"col-sm p-3"}>
-                            <a href="" className={"text-center p-3 " + styles.stores}>
-                                Bandcamp<br></br>(4/24夜予定)
+                            <a href="https://mini-hiori.bandcamp.com/album/expier-journey" className={"text-center p-3 " + styles.stores}>
+                                Bandcamp<br></br>
                             </a>
                         </div>
                         <div className={"col-sm p-3"}>
-                            <a href="" className={"text-center p-3 " + styles.stores}>
-                                Booth<br></br>(4/24夜予定)
+                            <a href="https://amairo-diary.booth.pm/items/3813369" className={"text-center p-3 " + styles.stores}>
+                                Booth<br></br>
                             </a>
                         </div>
                     </div>
                     <div className={"row justify-content-center"}>
                         <div className={"col-sm p-3"}>
-                        <a href="" className={"text-center p-3 " + styles.stores}>
-                            Spotify<br></br>(4/25予定)
+                        <a href="https://open.spotify.com/album/1sux9DJujQQlIPUU91mRuU?si=woJOGiHbT-OPPKZzgkfC1Q" className={"text-center p-3 " + styles.stores}>
+                            Spotify<br></br>
                         </a>
                         </div>
                         <div className={"col-sm p-3"}>
-                        <a href="" className={"text-center p-3 " + styles.stores}>
-                            Apple Music<br></br>(4/25予定)
+                        <a href="https://music.apple.com/jp/album/%E3%82%A4%E3%82%AF%E3%82%B9%E3%83%94%E3%82%A2-%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8B%E3%83%BC/1618701923" className={"text-center p-3 " + styles.stores}>
+                            Apple Music<br></br>
                         </a>
                         </div>
                     </div>
-                    <div className={"row justify-content-center"}>
+                    {/* <div className={"row justify-content-center"}>
                         <div className={"col-sm p-3"}>
                         <a href="" className={"text-center p-3 " + styles.stores}>
-                            その他サブスク<br></br>(4/25予定)
+                            その他サブスク<br></br>
                         </a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
